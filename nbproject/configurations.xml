@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="62">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f2" displayName="app" projectFiles="true">
+        <itemPath>src/app/FIF.h</itemPath>
+        <itemPath>src/app/PRAGMA.h</itemPath>
+        <itemPath>src/app/EEPROM.h</itemPath>
+        <itemPath>src/app/AXIS.h</itemPath>
+        <itemPath>src/app/CAN.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="board" projectFiles="true">
+        <itemPath>src/board/CerebotMC/CANdriver.h</itemPath>
+        <itemPath>src/board/CerebotMC/PORTSdriver.h</itemPath>
+        <itemPath>src/board/CerebotMC/PWMdriver.h</itemPath>
+        <itemPath>src/board/CerebotMC/QEIdriver.h</itemPath>
+        <itemPath>src/board/CerebotMC/TIMERdriver.h</itemPath>
+        <itemPath>src/board/CerebotMC/board.h</itemPath>
+        <itemPath>src/board/CerebotMC/I2Cdriver.h</itemPath>
+      </logicalFolder>
+      <itemPath>src/system_facilities.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="app" projectFiles="true">
+        <itemPath>src/app/FIF.c</itemPath>
+        <itemPath>src/app/EEPROM.c</itemPath>
+        <itemPath>src/app/AXIS.c</itemPath>
+        <itemPath>src/app/CAN.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="board" projectFiles="true">
+        <itemPath>src/board/CerebotMC/CANdriver.c</itemPath>
+        <itemPath>src/board/CerebotMC/PORTSdriver.c</itemPath>
+        <itemPath>src/board/CerebotMC/PWMdriver.c</itemPath>
+        <itemPath>src/board/CerebotMC/QEIdriver.c</itemPath>
+        <itemPath>src/board/CerebotMC/TIMERdriver.c</itemPath>
+        <itemPath>src/board/CerebotMC/board.c</itemPath>
+        <itemPath>src/board/CerebotMC/I2Cdriver.c</itemPath>
+      </logicalFolder>
+      <itemPath>src/main.c</itemPath>
+      <itemPath>src/system_facilities.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+      <itemPath>../../DESIGN_INFO/PRAGMA.txt</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>src/board/CerebotMC</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="default" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>dsPIC33FJ128MC706A</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>PK3OBPlatformTool</platformTool>
+        <languageToolchain>XC16</languageToolchain>
+        <languageToolchainVersion>1.11</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <C30>
+      </C30>
+      <C30-AS>
+      </C30-AS>
+      <C30-LD>
+      </C30-LD>
+      <C30Global>
+      </C30Global>
+      <PK3OBPlatformTool>
+      </PK3OBPlatformTool>
+    </conf>
+  </confs>
+</configurationDescriptor>
